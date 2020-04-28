@@ -174,8 +174,20 @@
     </div>
 
     <!--Template for Handlebars-->
-    <script id="article-content" type="text/x-type-handlebars">
-    
+    <script id="article-content" type="text/x-handlebars-template">
+        {{#each articles}}
+        <article>
+            <div class="article-inside">
+                <div class="article-header">
+                    <h3>{{heading}}</h3>
+                    <h5>{{author}} @ {{time}}</h5>
+                </div>
+                <div class="article-content">
+                    {{content}}
+                </div>
+            </div>
+        </article>
+        {{/each}}
     </script>
 
 </body>
