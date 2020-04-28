@@ -1,5 +1,5 @@
 
-import * as views from "/views.js"
+import * as views from "./views.js"
 
 function windowLoad() {
     fetch("./articles.json")
