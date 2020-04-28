@@ -11,5 +11,5 @@ function applyTemplate(targetid, templateid, data) {
 }
 
 function displayArticle(targetid, data) {
-    applyTemplate(targetid, "article-content", {articles :data})
+    applyTemplate(targetid, "article-content", {articles: data})
 }
