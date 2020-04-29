@@ -13,4 +13,7 @@ function windowLoad() {
 
 }
 
-window.onload = windowLoad;
+window.onload = function(){
+
+    windowLoad();
+}
