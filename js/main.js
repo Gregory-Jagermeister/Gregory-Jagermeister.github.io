@@ -8,12 +8,11 @@ function windowLoad() {
     })
     .then((data) => {
         console.log(data)
-        views.displayArticle(document.getElementById("templateinsert"), data)
+        views.displayArticle("content", data)
     })
 
 }
 
 window.onload = function(){
-
     windowLoad();
 }

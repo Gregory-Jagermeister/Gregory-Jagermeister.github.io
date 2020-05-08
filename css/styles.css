@@ -2,6 +2,8 @@ body {
     margin: 0;
     font-family: "Open-Sans", sans-serif;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
     background: url(../Images/BackgroundTrue.png) no-repeat center center fixed;
     background-size: cover;
     margin-bottom: 0px;
@@ -49,6 +51,8 @@ p {
 
 header {
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
     text-align: center;
     margin-bottom: 75px;
 }
@@ -63,6 +67,8 @@ article {
     border-image: url(../Images/Website-border.png) 16 repeat;
     margin: 16px;
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
 
 }
 
@@ -173,6 +179,8 @@ h5 {
 
 .grass-top-footer {
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
     background-image: url(../Images/GrasstopMiddle.png);
     background-size: 64px;
     height: 64px;
@@ -180,6 +188,8 @@ h5 {
 
 .grass-bottom-footer {
     image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
     background-image: url(../Images/GrasstopBottom.png);
     background-size: 64px;
     height: 64px;
